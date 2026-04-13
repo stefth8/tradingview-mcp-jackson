@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(echo \"EXIT:$?\")"
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(npm install:*)",
+      "Bash(ls:*)",
+      "Bash(start notepad:*)",
+      "Bash(node bot.js)"
     ]
   }
 }
