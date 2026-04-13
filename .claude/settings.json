@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node src/cli/index.js indicator remove QzLSNx)",
+      "Bash(node src/cli/index.js indicator add \"Moving Average Exponential\" -i '{\"length\": 21}')",
+      "Bash(node src/cli/index.js indicator add \"Moving Average Exponential\" -i '{\"length\": 55}')",
+      "Bash(node src/cli/index.js pine get)",
+      "Bash(node src/cli/index.js ui panel pine-editor)",
+      "Bash(node src/cli/index.js pine new indicator)",
+      "Bash(node src/cli/index.js pine set -)",
+      "Bash(node src/cli/index.js pine compile)",
+      "Bash(node src/cli/index.js pine save \"EMA Cross Strategy\")",
+      "Bash(node src/cli/index.js ui click --text \"Add to chart\")",
+      "Bash(node src/cli/index.js ui click --aria \"Add to chart\")",
+      "Bash(node src/cli/index.js ui find --text \"Add to chart\")",
+      "Bash(node src/cli/index.js ui click --data-name \"add-script-to-chart\")",
+      "Bash(node src/cli/index.js ui mouse --x 366 --y 79 --action click)",
+      "Bash(node src/cli/index.js ui keyboard --key \"Escape\")",
+      "Bash(node src/cli/index.js ui mouse --x 400 --y 400 --action click)",
+      "Bash(node src/cli/index.js screenshot --region chart)",
+      "Bash(node src/cli/index.js ui find --aria \"close\")",
+      "Bash(node src/cli/index.js ui find --data-name \"toggle-visibility-button\")",
+      "Bash(node src/cli/index.js ui eval --code \"document.querySelector\\('[data-name=\\\\\"pine-editor\\\\\"] button[aria-label*=\\\\\"lose\\\\\"]'\\)?.click\\(\\); document.querySelector\\('.pine-editor-header button'\\)?.getAttribute\\('aria-label'\\)\")",
+      "Bash(node src/cli/index.js screenshot --region full)",
+      "Bash(node src/cli/index.js ui mouse --x 757 --y 11 --action click)",
+      "Bash(node src/cli/index.js ui mouse --x 760 --y 10 --action click)",
+      "Bash(node src/cli/index.js ui eval --code ':*)",
+      "Bash(node src/cli/index.js ui mouse --x 1490 --y 24 --action click)",
+      "Bash(node src/cli/index.js state)",
+      "Bash(node src/cli/index.js status)",
+      "Bash(curl -s http://localhost:9222/json/list)",
+      "Bash(cmd /c \"c:\\\\Users\\\\stefa\\\\tradingview-mcp-jackson\\\\scripts\\\\launch_tv_debug.bat\")",
+      "Bash(cmd /c \"dir /s /b \\\\\"C:\\\\Program Files\\\\WindowsApps\\\\TradingView*\\\\\" 2>nul | findstr TradingView.exe\")",
+      "Bash(cmd /c \"where TradingView.exe 2>nul\")",
+      "Bash(cmd /c \"dir \\\\\"%LOCALAPPDATA%\\\\TradingView\\\\\" 2>nul\")",
+      "Bash(curl -s http://localhost:9223/json/list)",
+      "Bash(curl -s http://localhost:9224/json/list)",
+      "Bash(curl -s http://localhost:9225/json/list)"
+    ]
+  }
+}
